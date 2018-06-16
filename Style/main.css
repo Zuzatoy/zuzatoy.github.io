@@ -1,0 +1,76 @@
+
+.banner{
+    display: -webkit-flex;
+    display: flex;
+}
+
+.reflection {
+    background: rgb(243, 16, 129) ; font-style: italic;font-size: 40px;
+}
+
+.timemen {
+  background-color: rgb(209, 107, 163);font-size: 40px;font-style: italic  
+}
+
+.tech
+{
+    background-color: rgb(218, 164, 194);font-style: italic;font-size: 40px;
+}
+
+.image-container
+{
+    width: 1200px;
+    height: 400px; 
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rightgif-container
+
+{
+    width: 800px;
+    height: 300px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.rightgif-container img
+
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.leftgif-container
+{
+    width: 800px;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.leftgif-container img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.link-container {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
