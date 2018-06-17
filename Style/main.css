@@ -1,7 +1,12 @@
+html 
+{
+    font-family: 'Gloria Hallelujah', cursive;
+}
 
-.banner{
+.banner {
     display: -webkit-flex;
     display: flex;
+    font-style: italic;
 }
 
 .reflection {
@@ -28,17 +33,18 @@
     max-height: 100%;
 }
 
-.rightgif-container
+.cats-container
 
 {
-    width: 800px;
+    width: 100%;
     height: 300px; 
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    align-items: center;
 }
 
-.rightgif-container img
+.cats-container img
 
 {
     max-width: 100%;
