@@ -22,6 +22,11 @@ html
     background-color: rgb(218, 164, 194);font-style: italic;font-size: 40px;
 }
 
+.tech2
+{
+    background-color: rgb(190, 127, 162); font-style: italic;font-size: 40px;
+}
+
 .image-container
 {
     width: 1200px;
