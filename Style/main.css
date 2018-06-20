@@ -27,6 +27,11 @@ html
     background-color: rgb(190, 127, 162); font-style: italic;font-size: 40px;
 }
 
+.emotion
+{
+background-color: rgb(153, 67, 120); font-style: italic; font-size: 40px;
+}
+
 .image-container
 {
     width: 1200px;
