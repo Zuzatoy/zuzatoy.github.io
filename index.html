@@ -1,42 +1,83 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My reflections to the time and habit management resources</title>
-    <link rel="stylesheet" href="Style/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-</head>
-<body>
-   
+<html>
+  <head>
+    <title>Sample Skeleton Page</title>
+    <meta charset="utf-8">
 
-   <div class="cats-container cathat">
-       <img src ="Style/cathat.gif" alt= "this is dancing cat">
-       <h1 class="banner">Lisa Serous blog ^__^</h1>
-       <img src="Style/glowstickcat.gif" alt = "this is a kitty cat">
-    </div>
-
-
-    <div class="link-container reflection"> 
-        <a  href="./blog/c1-reflection-blog.html">Reflection to the video </a>
-    </div>
+    <!-- 
+      Notice that we have three stylesheet links: the first two are for the Skeleton framework,
+      and the final one is for any custom styles we might need, like turning the background
+      bright pink.
     
-      <div class="link-container timemen">
-        <a href="./blog/c1-time-and-habits-blog.html">Time managment/right habits </a>
+      Please don't make the background pink... have a little pity on your teachers!
+    -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="row">
+
+        <div class="twelve columns">
+          <h1>Sample Skeleton Page</h1>
+        </div>
+
       </div>
-        <div class = "link-container tech">
-        <a href="./blog/t2-html-css-dom-p1.html">Tech blog </a> 
-    </div>
-    <div class="link-container tech2">
-    <a href="./blog/t2-html-css-dom-p2.html">Tech2 blog</a>
-    </div>
 
-    <div class="link-container emotion">
-        <a href="./blog/c2-emotional-intelligence.html">Emotional intellogence</a>
+      <div class="row">
+        <div class="six columns">
+          <p>Use this example as a guide to getting your new Skeleton-based site up and running.</p>
+          <ul>
+            <li>Do try to write your HTML from scratch though:</li>
+            <ul>
+              <li>It's good practice</li>
+              <li>It's more satisfying</li>
+              <li>It builds 'muscle memory'</li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="six columns">
+          <p>Keep it really simple until you've mastered the basic structure of each page using the grid system.</p>
+          <p>Remember: everything goes inside <code>class="container"</code>. Columns (<code>class="twelve columns"</code>) go inside rows (<code>class="row"</code>).</p>
+
+          <p>There's a simple <code>custom.css</code> file <a href="https://github.com/dev-academy-programme/curriculum/blob/master/resources/html-skeleton-EXAMPLE/custom.css">here</a> if you need an example to get you started.</p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="six columns offset-by-six">
+          <p>Here's a column using an offset (try the <code>offset-by-six</code> class.</p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="four columns">
+          Here's a three-column layout.
+        </div>
+
+        <div class="four columns">
+          The total of the column widths must add up to twelve... 
+        </div>
+
+        <div class="four columns">
+          ...so four plus four plus four, in this case.
+        </div>
+      </div>
+      <hr>
+
+      <div class="row highlight">
+        <div class="twelve columns">
+          This row uses a custom class, <code>highlight</code>, to add some emphasis. This is not part of the Skeleton framework: you can add your own styles, or even override some of Skeleton's if you don't like them. Just make sure that your custom styles come <strong>last</strong> in the list of <code>link</code> elements in your <code>head</code>.
+        </div>
+      </div>
+      <hr>
     </div>
-
-
-</body>
+  </body>
 </html>
+
+
