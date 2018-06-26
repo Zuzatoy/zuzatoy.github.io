@@ -1,0 +1,8 @@
+.position-right {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box; }
