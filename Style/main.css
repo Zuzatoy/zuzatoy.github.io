@@ -11,3 +11,19 @@
 .rules{
     font-size: 16px;
 }
+
+.kotik {
+    transition: transform linear 0.2s;
+}
+
+.kotik:hover {
+    transform: scale(1.1);
+}
+
+.poezd{
+    transition: transform linear 0.2s;
+}
+
+.poezd:hover{
+    transform: scale(1.4);
+}
