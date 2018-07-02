@@ -25,5 +25,14 @@
 }
 
 .poezd:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+
+.leto{
+    transition: transform linear 0.2s;
+}
+
+.leto:hover{
+    transform: scale(1.1);
 }
