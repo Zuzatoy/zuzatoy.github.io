@@ -37,6 +37,10 @@
     transform: scale(1.1);
 }
 
+.list-element-bold{
+  font-weight: bold;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
